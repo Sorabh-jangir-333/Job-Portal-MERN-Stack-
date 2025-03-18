@@ -1,0 +1,150 @@
+/* Dark Animated Gradient Background */
+.dark-gradient-bg {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    background-size: 400% 400%;
+    animation: gradientBG 8s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Neon Text Effect */
+  .text-neon {
+    background: linear-gradient(to right, #0ff, #1e90ff, #8a2be2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 3rem;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Neon Buttons */
+  .neon-btn {
+    border: 2px solid #1e90ff;
+    color: #1e90ff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .neon-btn:hover {
+    background: #1e90ff;
+    color: #fff;
+    box-shadow: 0px 0px 15px #1e90ff;
+  }
+  
+  /* Feature Card Hover Effect */
+  .feature-card {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .dark-gradient-bg {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    background-size: 400% 400%;
+    animation: gradientBG 8s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    will-change: background-position;
+}
+
+.text-neon {
+    background: linear-gradient(to right, #0ff, #1e90ff, #8a2be2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 3rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.neon-btn {
+    border: 2px solid #1e90ff;
+    color: #1e90ff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.neon-btn:hover {
+    background: #1e90ff;
+    color: #fff;
+    box-shadow: 0px 0px 15px #1e90ff;
+}
+
+.feature-card {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    will-change: transform, box-shadow;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #8a2be2;
+}
+
+.stat-box {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    will-change: transform, box-shadow;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #0ff;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #8a2be2;
+  }
+  
+  /* Stats Box Hover Effect */
+  .stat-box {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #fff !important;
+    
+  }
+  
+  .stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #0ff;
+  }
+  
+  /* Keyframe Animation for Gradient */
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
